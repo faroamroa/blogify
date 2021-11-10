@@ -11,7 +11,7 @@ export class CreatePostComponent implements OnInit {
 
   content:string = 'Hola Mundo';
   texto:string = '';
-  errorMessage = 'Este campo es requerido.';
+  errorMessage = 'Este campo es requerido';
 
 
   constructor(public postService: PostService) { }
